@@ -1,0 +1,44 @@
+梁爽：
+1.Git Bash，cd到想要下载的目录中
+git clone ‘模块代码’
+git branch 查看所在的分支
+git branch -a 查看所有分支
+git checkout 分支名 切换并新创建一个分支
+2.login模块代码，要在test分支，npm install，npm run dev
+mall-item-web模块代码，feature/IOP分支，npm install npm run serve
+mall-web模块代码，feature/IOP分支，npm install npm run serve
+３.login模块→config→proxy.config.js→'http://srm.dev.qeweb.com'
+mall-item-web→vue.config.js→const target = "http://mall.dev.qeweb.com";
+mall-web→vue.config.js→const target = "http://mall.dev.qeweb.com";
+
+
+我：
+运行项目注意点
+1.node版本必须是14.17.2
+
+2.supplier-web和main-web都需要添加一个npmrc文件才可运行
+
+3.所有项目的proxy.config.js或者vue.config.js都需要改成dev
+
+4.提交bug请去行云的测试管理
+
+5.检查supplier-web和main-web的op630分支bug问题请先启动login-web，supplier-web和main-web这三个项目，
+注意都要在dev环境下（proxy.config.js或者vue.config.js中的代理如果是test则需要改成dev）,还要注意supplier-web
+和main-web可能还要添加一个npmrc文件才可以运行.
+
+后续步骤：启动supplier-web，即打开9012端口（http://localhost:9012/#/main/dashboard），此地址代表本地环境；
+另外打开http://srm.dev.qeweb.com/#/supplier/pur/review线上环境，两边对照确定哪里有bug。目的是检查本地的项目
+有无明显错误， 线上的项目仍然还是组件替换前的，即采用mtech-ui而不是现在需要使用的j-antdv
+
+clone新的项目时注意别忘了切换到指定分支，然后手动拉取更新一下本地分支！！！！！！！！
+
+
+执行git checkout -b <本地分支名称> origin/<远程分支名称>，拉取指定的某一个分支
+$ git checkout -b dev开发分支 origin/dev开发分支 ，该命令的作用是：checkout远程仓库origin的分支“dev开发分支”，在本地起名为“dev开发分支”分支，并切换到本地的“dev开发分支”分支。
+拉取该分支的最新代码：git pull origin dev开发分支
+
+
+
+
+
+
