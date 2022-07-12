@@ -1,0 +1,82 @@
+{
+  "window.zoomLevel": 0.6,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "terminal.integrated.fontSize": 15,
+  "workbench.colorCustomizations": {
+    // 匹配括号框的颜色
+    "editorBracketMatch.border": "#ff0000",
+     // 匹配括号的背景颜色
+    //  "editorBracketMatch.background": "#838b3f",
+    // 当前选项卡背景颜色
+                   "tab.activeBackground": "#3f7573",
+    "editor.findMatchBackground": "#de5985",
+    // 其他搜索匹配的背景颜色
+    "editor.findMatchHighlightBackground": "#0000",
+    "editor.selectionBackground": "#5aa838", //设置选中的背景色
+    "editorBracketHighlight.fo              reground1": "#ffd900",
+    "editorBracketPairGuide.activeBackground1": "#ffd7007f",
+    "editorBracketHighlight.foreground2": "#da70d6",
+    "editorBracketPairGuide.activeBackground2": "#da70d67f",
+    "editorBracketHighlight.foreground3": "#87cefa",
+    "editorBracketPairGuide.activeBackground3": "#87cefa7f",
+    "editorBracketHighlight.foreground4": "#ffd700",
+    "editorBracketPairGuide.activeBackground4": "#ffd7007f",
+    "editorBracketHighlight.foreground5": "#da70d6",
+    "editorBracketPairGuide.activeBackground5": "#da70d67f",
+    "editorBracketHighlight.foreground6": "#87cefa",
+    "editorBracketPairGuide.activeBackground6": "#87cefa7f",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+  },
+  // 开启原生括号着色
+  "editor.bracketPairColorization.enabled": true,
+  // 开启 active 时的代码块边缘导轨线着色（和 Bracket Pair Colorizer 行为一致）
+  "editor.guides.bracketPairs": "active",
+  "vetur.ignoreProjectWarning": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "workbench.startupEditor": "none",
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 80,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true
+  },
+  "explorer.confirmDelete": false,
+  "editor.codeActionsOnSave": {},
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "prettier.vueIndentScriptAndStyle": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "powermode.enabled": true, //启用插件
+  "powermode.presets": "magic", // 光标特效效果
+  "powermode.shake.enabled": false,
+  "powermode.combo.location": "off",
+  "powermode.explosions.offset": 0.4,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "editor.fontSize": 15,
+  "workbench.enableExperiments": false,
+  "[vue]": {
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "vetur.completion.scaffoldSnippetSources": {
+    "workspace": "💼",
+    "user": "🗒️",
+    "vetur": "✌",
+    "vetur.validation.template": false
+  },
+  "workbench.colorTheme": "Community Material Theme High Contrast",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.minimap.enabled": false,
+  "editor.acceptSuggestionOnEnter": "smart"
+}
